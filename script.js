@@ -37,7 +37,33 @@ function writePassword() {
     var confirmNumericCharacter = confirm("Click ok to include numeric characters"); 
     var confirmSpecialCharacter = confirm("Click ok to include special characters");
        
-    
+  while(confirmLowerCase === false && confirmUpperCase === false && confirmNumericalCharacter === false && confirmSpecialCharacter === false) {
+      alert("Please choose a criteria");
+      var confirmLowerCase = confirm("Click ok to include lowercase letters");
+      var confirmUpperCase = confirm("Click ok to include uppercase letters");
+      var confirmNumericalCharacter = confirm("Click ok to include numbers");    
+      var confirmSpecialCharacter = confirm("Click ok to include special characters");   
+  } 
+
+  var passwordCharacters = []
+
+  if (confirmLowerCase) {
+    passwordCharacters = passwordCharacters.concat(alphaLower)
+  }
+
+  if (confirmUpperCase) {
+    passwordCharacters = passwordCharacters.concat(alphaUpper)
+  }
+
+  if (confirmNumericCharacter) {
+    passwordCharacters = passwordCharacters.concat(number)
+  }
+      
+  if (confirmSpecialCharacter) {
+    passwordCharacters = passwordCharacters.concat(specialChar)
+  }
+
+    console.log(passwordCharacters)
 
 }
 
