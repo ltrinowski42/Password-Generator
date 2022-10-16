@@ -16,12 +16,15 @@ var confirmNumericCharacter;
 var confirmSpecialCharacter;
 
 
-// Write password to the #password input
+// Password function
 function writePassword() {
-  var password = generatePassword();
+  var password = generatePassword (prompt("How many characters would you like your password to contain?"));
+
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
+  //Loops
 
 }
 
