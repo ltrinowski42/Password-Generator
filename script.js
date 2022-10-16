@@ -10,10 +10,11 @@ var specialChar = ["!", "%", "&", ",", "*", "+", "-", ".", "/", "<", ">", "?","~
 
 //Declarations
 var confirmLength = "";
-var confirmSpecialCharacter;
-var confirmNumericCharacter;
-var confirmUpperCase;
 var confirmLowerCase;
+var confirmUpperCase;
+var confirmNumericCharacter;
+var confirmSpecialCharacter;
+
 
 // Write password to the #password input
 function writePassword() {
