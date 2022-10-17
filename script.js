@@ -41,10 +41,10 @@ function generatePassword() {
       
       while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
         alert("You must have at least one criteria!");
-        var confirmUpperCase = confirm("Click ok to confirm you would like upper case letters in your password");
-        var confirmLowerCase = confirm("Click ok to confirm you would like lower case letters in your password");
-        var confirmNumericCharacter = confirm("Click ok to confirm you would like numbers in your password");   
-        var confirmSpecialCharacter = confirm("Click ok to confirm you would like special characters in your password"); 
+        var confirmUpperCase = confirm("Would you like upper case letters in your password?");
+        var confirmLowerCase = confirm("Would you like lower case letters in your password?");
+        var confirmNumericCharacter = confirm("Would you like numbers in your password?");   
+        var confirmSpecialCharacter = confirm("Would you like special characters in your password?"); 
           
     } 
 
