@@ -24,22 +24,22 @@ Open up url link in web browser to excute code.
 
 User is presented with password prompts including requiring password length:
 
-https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155500.jpg?raw=true)
+![Password-Generator](https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155500.jpg?raw=true)
 
 
 Alert user gets if password is not between 8-128 characters in length:
 
-(https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155534.jpg?raw=true)
+![Password-Generator](https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155534.jpg?raw=true)
 
 
 User is presented with prompts to select upper case, lower case, numeric, and/or special characters:
 
-(https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20161354.jpg?raw=true)
+![Password-Generator](https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20161354.jpg?raw=true)
 
 
 Password is generated:
 
-(https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155740.jpg?raw=true)
+![Password-Generator](https://github.com/ltrinowski42/Password-Generator/blob/main/Assets/Screenshot%202022-10-17%20155740.jpg?raw=true)
 
 
 
