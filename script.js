@@ -27,18 +27,18 @@ function generatePassword() {
 
   while(confirmLength <= 7 || confirmLength >= 129) {
       alert("Password must be between 8-128 characters long!");
-      var confirmLength = (prompt("How many characters would you like your password to be?"));
+      var confirmLength = (prompt("How long would you like your password to be?"));
       } 
 
-      // Repeat back how many charactes the user will have  
+
       alert(`Your password will be ${confirmLength} characters long`);
 
-    // Determine parameters of password 
+
     var confirmUpperCase = confirm("Would you like upper case letters in your password?");
     var confirmLowerCase = confirm("Would you like lower case letters in your password?");
     var confirmNumericCharacter = confirm("Would you like numbers in your password?"); 
     var confirmSpecialCharacter = confirm("Would you like special characters in your password?");  
-      // Loop if answer is outside the parameters 
+      
       while(confirmUpperCase === false && confirmLowerCase === false && confirmSpecialCharacter === false && confirmNumericCharacter === false) {
         alert("You must have at least one criteria!");
         var confirmUpperCase = confirm("Click ok to confirm you would like upper case letters in your password");
@@ -48,7 +48,7 @@ function generatePassword() {
           
     } 
 
-      // Assign an action to the password parameters NEED TO FIX THIS
+
       var passwordCharacters = []
       
     if (confirmUpperCase) {
@@ -69,7 +69,7 @@ function generatePassword() {
 
       console.log(passwordCharacters)
 
-      // Empty string to be filled based on for loop selecting random characters from the array
+      
       var randomPassword = ""
       
       for (var i = 0; i < confirmLength; i++) {
@@ -78,5 +78,5 @@ function generatePassword() {
       }
       return randomPassword;
 }
-// Add event listener to generate button
+
 generateBtn.addEventListener("click", writePassword);
